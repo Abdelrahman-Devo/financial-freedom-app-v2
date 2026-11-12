@@ -2,5 +2,5 @@
   "appId": "com.magiccompany.financialfreedom",
   "appName": "الحرية المالية",
   "webDir": ".",
-  "server": { "androidScheme": "https" }
+  "bundledWebRuntime": false
 }

@@ -1,13 +1,11 @@
 {
-  "name": "financial-freedom-fresh",
-  "version": "1.0.0",
+  "name": "financial-freedom",
+  "version": "2.0.0",
   "private": true,
-  "description": "الحرية المالية - تطبيق إدارة مالية شخصي عربي",
+  "description": "Financial Freedom PWA",
   "scripts": {
-    "cap:sync": "cap sync",
-    "android:add": "cap add android",
-    "android:open": "cap open android"
+    "start": "npx serve ."
   },
-  "dependencies": { "@capacitor/core": "^7.4.3" },
-  "devDependencies": { "@capacitor/cli": "^7.4.3" }
+  "dependencies": {},
+  "devDependencies": {}
 }
