@@ -1,11 +1,17 @@
 {
   "name": "financial-freedom",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
-  "description": "Financial Freedom PWA",
+  "description": "Financial Freedom Arabic RTL app",
   "scripts": {
-    "start": "npx serve ."
+    "cap:add:android": "cap add android",
+    "cap:sync:android": "cap sync android"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "appId": "com.magiccompany.financialfreedom",
   "appName": "الحرية المالية",
-  "webDir": ".",
+  "webDir": "www",
   "bundledWebRuntime": false
 }
