@@ -1,0 +1,12 @@
+{
+  "name": "الحرية المالية",
+  "short_name": "الحرية المالية",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f7f5",
+  "theme_color": "#123d32",
+  "description": "إدارة الدخل والميزانية والمحافظ والادخار والأهداف وصافي الثروة."
+}
