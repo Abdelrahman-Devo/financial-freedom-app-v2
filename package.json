@@ -1,0 +1,13 @@
+{
+  "name": "financial-freedom-fresh",
+  "version": "1.0.0",
+  "private": true,
+  "description": "الحرية المالية - تطبيق إدارة مالية شخصي عربي",
+  "scripts": {
+    "cap:sync": "cap sync",
+    "android:add": "cap add android",
+    "android:open": "cap open android"
+  },
+  "dependencies": { "@capacitor/core": "^7.4.3" },
+  "devDependencies": { "@capacitor/cli": "^7.4.3" }
+}
