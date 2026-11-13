@@ -18,3 +18,8 @@ cd android && ./gradlew assembleDebug
 If `android/` already exists, do not run `npx cap add android` again; run `npx cap sync android` instead.
 
 The app's web assets are in `www/`, matching `webDir` in `capacitor.config.json`.
+
+
+## Financial category wallets and debt payments
+
+The app now displays six monthly allocation wallets (essentials, luxury, debts, savings, investment, charity). Debt repayments are linked to an expense in the selected allocation wallet, so the outstanding debt and the selected wallet balance update together. Editing or deleting a repayment updates/removes its linked expense.
